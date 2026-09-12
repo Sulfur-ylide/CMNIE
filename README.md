@@ -2,7 +2,7 @@
 
 CMNIE is a Chinese military-news benchmark for joint information extraction. It is built from publicly accessible Chinese military-news texts and provides aligned annotations for events, event arguments, named entities, and entity relations.
 
-The dataset is available on ModelScope: `https://www.modelscope.cn/datasets/mzzzhu/CMNIE`.
+The dataset is available on ModelScope: `https://www.modelscope.cn/datasets/NUDT-BDD/CMNIE`.
 
 ## Dataset Overview
 
@@ -85,3 +85,18 @@ Offsets are token-level half-open intervals, `[start, end)`, rather than charact
 ## Evaluation Code
 
 Evaluation code: **coming soon**.
+
+# Citation
+If CMNIE is helpful to your research, please consider citing the relevant paper. Thank you. 
+
+```
+@misc{yu-etal-2026-cmnie,
+      title={CMNIE: An Information Extraction Benchmark for Chinese Military News}, 
+      author={Yan Yu and Mengna Zhu and Zhenyu Song and Hao Yang and Haiwen Chen and Mao Wang},
+      year={2026},
+      eprint={2609.10722},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.10722}, 
+}
+```
